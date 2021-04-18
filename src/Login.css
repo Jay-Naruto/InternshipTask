@@ -1,0 +1,104 @@
+.login__form{
+    display: flex;
+    object-fit: contain;
+    flex-direction: column;
+    position: absolute;
+   justify-content: center;
+    /* box-sizing: border-box; */
+    background: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 100%;
+    min-height: 100vh; 
+    align-items: center;
+    backdrop-filter: blur(8px);
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
+
+ 
+  
+    
+   
+
+
+    
+}
+.login__form > input{
+    margin: 4px;
+    width: 300px ;
+    border: 1px  ;
+    border-radius: 22px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 40px;
+    backdrop-filter: blur(6px);
+    outline: none;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+   
+ 
+    
+
+ 
+}
+.login__form > input:hover{
+    text-indent: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+  
+.login__form >  input:focus{
+    text-indent: 0px;
+    width: 85%;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+  
+.login__form >  input::placeholder {
+    color: #f8f8f8;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+  
+.login__form > input:focus::placeholder {
+          color: rgba(255, 255, 255, 0);
+}
+.login__form > button{
+    margin-top: 20px;
+    outline: none;
+    width: 300px ;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 22px;
+    background: #d44bb2;
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);
+    background: linear-gradient(to right, #ffb758, #f857a6);
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+    
+
+    
+}
+.login__form > button:active {
+    /* background-color: #3e8e41; */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.login__form > div{
+    color: white;
+    margin-bottom: 20px;
+    
+    
+
+    
+}
+
+.login__form > img{
+    vertical-align: middle;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin: 10px;
+  
+   object-fit: cover ;
+}
+

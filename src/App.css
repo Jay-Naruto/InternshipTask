@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+ 
+
+}
+
+body{
+  background-image: url(./BackGround.jpg);
+  -webkit-background-size:cover;
+  background-size: cover;
+  filter: blur(px);
+}
